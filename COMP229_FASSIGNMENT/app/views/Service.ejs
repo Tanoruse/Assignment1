@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <!--CSS Section-->
+  <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+  <link rel='stylesheet' href='/@fortawesome/fontawesome-free/css/all.min.css'/>
+  <link rel="stylesheet" href="/content/app.css"/>
+</head>
+
+<body>
+
+   <!---Main Nav-->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Samuel Portofolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/"><i class="fa-solid fa-house"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about"><i class="fa-solid fa-circle-info"></i> About</a>
+          </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/products"><i class="fas fa-bars"></i>Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/services"><i class="fas fa-cogs"></i>Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact"><i class="fa-solid fa-address-book"></i>Contact</a>
+        </li>
+      </li>
+
+    </div>
+  </nav>
+  <h1>Welcome to the <%= title %> page</h1>
+  <h3 style="font-family: Arial, sans-serif; border-radius: 10px; border: 2px solid #000; padding: 10px;">List of services</h3>
+  <br>
+  <br>
+  
+  <p style="font-family: Arial, sans-serif; border-radius: 10px; padding: 10px;">
+    <ul>
+        <li>Attentive listener</li>
+        <li>Fluent in English and Izon</li>
+        <li>Excellent Writing Skills</li>
+        <li>Good Communication skills</li>
+        <li>Proficient in Java, HTML, CSS, C#, PYTHON</li>
+        <li>Remarkable problem-solving proficiency for prompt issue resolution</li>
+    </ul>
+</p>
+
+
+
+  <!--Script Section-->
+  <script src="/jquery/dist/jquery.min.js"></script>
+  <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/scripts/app.js"></script>
+</body>
+<!--Footer-->
+<footer class="bg-dark text-white py-3">
+  <div class="container text-center">
+    <p>&copy;  All rights reserved.</p>
+  </div>
+</footer>
+</html>

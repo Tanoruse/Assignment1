@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel's Portfolio</title>
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css' />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            background-color: #343a40;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: white;
+        }
+
+        .profile-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .profile-image {
+            max-width: 100%; /* Adjust the width of the image as needed */
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 5px solid white;
+            margin-bottom: 20px; /* Add some space between the image and text */
+        }
+
+        .profile-container h3,
+        .profile-container p {
+            border: 1px solid #343a40;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Main Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Samuel's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/products"><i class="fas fa-briefcase"></i> Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/services"><i class="fas fa-cogs"></i> Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact"><i class="fas fa-address-book"></i> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 profile-container text-center">
+                <img src="Images/ProfileFile.jpg" alt="profile picture" class="profile-image">
+                <h1>Welcome to the About Page</h1>
+                <!--Introduction-->
+                <h3 class="mb-3">Who Am I?</h3>
+                <p>I am Anoruse-Thomas, Tamara-Lakemefa, Samuel. I am currently pursuing an advanced diploma in software engineering. I enjoy playing and watching football during my free time. Proficient in C# and Java, I also possess excellent communication and interpersonal skills. I am passionate about teamwork and dedicated to what I do.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Script Section-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+<footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+      <p>&copy;  All rights reserved.</p>
+    </div>
+  </footer>
+</html>

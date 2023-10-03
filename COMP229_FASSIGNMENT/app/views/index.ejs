@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel='stylesheet' href='/@fortawesome/fontawesome-free/css/all.min.css' />
+    <link rel="stylesheet" href="/content/app.css" />
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h3 {
+            color: black;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        p {
+            text-align: center;
+            font-style: italic;
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: #343a40;
+        }
+
+        nav .navbar-brand,
+        nav .nav-link {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Main Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Samuel's Portofolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/products"><i class="fas fa-bars"></i>Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/services"><i class="fas fa-cogs"></i>Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact"><i class="fas fa-address-book"></i> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Welcome to the <%= title %> Page</h1>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h3>Welcome Message</h3>
+                <p>My name is Anoruse-Thomas, Samuel. I am a software engineering student at Centennial College. I enjoy dancing. My favorite coding languages are C# and Java.</p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h3>Mission Statement</h3>
+                <p>Our mission is to empower organizations with cutting-edge software expertise, ensuring uninterrupted operations and sustainable growth. With a commitment to innovation, integrity, and excellence, we bridge the gap between software challenges and solutions, enabling our clients to thrive in the digital age. We are driven by the belief that every business, regardless of its size, deserves top-tier software support. Our dedicated team of experts is here to guide you through your software journey, offering reliable interim solutions tailored to your unique needs. Partner with us and experience the difference of expertise, reliability, and personalized service.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script Section -->
+    <script src="/jquery/dist/jquery.min.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/scripts/app.js"></script>
+    
+</body>
+<!--Footer-->
+<footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+      <p>&copy;  All rights reserved.</p>
+    </div>
+  </footer>
+</html>
