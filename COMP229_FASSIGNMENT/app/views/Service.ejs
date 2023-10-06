@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= title %></title>
-  <!--CSS Section-->
-  <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
-  <link rel='stylesheet' href='/@fortawesome/fontawesome-free/css/all.min.css'/>
-  <link rel="stylesheet" href="/content/app.css"/>
-</head>
+<% include ./partial/header.ejs %>
 
 <body>
 
@@ -67,10 +57,5 @@
   <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="/scripts/app.js"></script>
 </body>
-<!--Footer-->
-<footer class="bg-dark text-white py-3">
-  <div class="container text-center">
-    <p>&copy;  All rights reserved.</p>
-  </div>
-</footer>
-</html>
+
+<% include ./partial/footer.ejs %>

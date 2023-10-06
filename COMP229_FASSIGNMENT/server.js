@@ -7,9 +7,8 @@ const route = require('./routes/routes');
 app.set('views', './app/views');
 app.set('view engine', 'ejs');
 app.use('/', route);
-console.log("before");
+
 app.listen(3000);
-console.log("after");
 
 module.exports = app;
 

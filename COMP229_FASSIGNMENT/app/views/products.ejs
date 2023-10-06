@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projects</title>
-    <!-- CSS Section -->
-    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css" />
-    <link rel="stylesheet" href="content/app.css" />
+<% include ./partial/header.ejs %>
     <style>
       /* Add this style to limit the size of project images */
       .project-image {
@@ -114,9 +105,4 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
-  <footer class="bg-dark text-white py-3">
-    <div class="container text-center">
-      <p>&copy;  All rights reserved.</p>
-    </div>
-  </footer>
-</html>
+  <% include ./partial/footer.ejs %>

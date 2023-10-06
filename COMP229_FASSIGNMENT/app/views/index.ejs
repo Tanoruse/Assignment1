@@ -1,18 +1,5 @@
 
-
-    
-   
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%= title %></title>
-    <!-- CSS Section -->
-    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css" />
-    <link rel="stylesheet" href="content/app.css" />
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+<% include ./partial/header.ejs %>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -39,8 +26,8 @@
               <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i> About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/product"><i class="fas fa-bars"></i> Projects</a>
-            </li>
+                <a class="nav-link" href="/products"><i class="fas fa-bars"></i>Products</a>
+              </li>
             <li class="nav-item">
               <a class="nav-link" href="/services"><i class="fas fa-cogs"></i> Services</a>
             </li>
@@ -115,11 +102,5 @@
     <script src="/scripts/app.js"></script>
     
 </body>
-<!--Footer-->
-<footer class="bg-dark text-white py-3">
-    <div class="container text-center">
-      <p>&copy;  All rights reserved.</p>
-    </div>
-  </footer>
 
-  </html>
+<% include ./partial/footer.ejs %>
